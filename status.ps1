@@ -9,7 +9,9 @@ foreach($services in $service){
 
 
  }
-
+ else
+ {
+ $html+="<tr style=color:red><td>$($services.name)</td><td>$($services.displayname)</td><td>$($services.status)</td></tr>"
 
 }
 $html+="</table></body></html>"
