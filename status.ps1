@@ -13,4 +13,4 @@ foreach($services in $service){
 
 }
 $html+="</table></body></html>"
-$html|out-file -FilePath C:\users\Administrator\Desktop\status.html
+$html|out-file -FilePath C:\users\Administrator\Desktop\report.html
