@@ -13,4 +13,8 @@ foreach($services in $service){
 
 }
 $html+="</table></body></html>"
+<<<<<<< HEAD
 $html|out-file -FilePath C:\users\Administrator\Desktop\report.html
+=======
+$html|out-file -FilePath C:\users\Administrator\Desktop\status.html
+>>>>>>> 0a85acc4ef69359be92ebc1887aee5b5c57d98fd
