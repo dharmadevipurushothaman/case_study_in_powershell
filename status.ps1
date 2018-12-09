@@ -1,0 +1,1 @@
+﻿get-service| out-file C:\users\Administrator\Desktop\case.html 
