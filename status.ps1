@@ -1,5 +1,5 @@
 ﻿$html=@()
-$service=get-servie
+$service=get-service
 $html+="<html><head>service status report</head><br><br><body>"
 $html+="<table border=5><tr><th>service_name</th><th>display_name</th><th>status</th><tr>" 
 foreach($services in $service){
